@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    font-family: cursive;
+}
+
+:root {
+    --bg-color: rgb(36, 34, 34);
+    --secondary-text-color: #fff;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+#rh1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#phd-paira{
+    color: #fff;
+}
+
+#himansu-sir-about {
+    background-color: var(--bg-color);
+}
+
+.himansu-sir {
+    background-color: var(--bg-color);
+    /* border: 2px solid red; */
+    padding: 10px;
+    /* justify-content: center; */
+    gap: 20px;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.btn-1,
+.btn-2 {
+    cursor: pointer;
+}
+
+
+h1 {
+    color: #f7f5f5;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+p,
+h2,
+h3,
+li {
+    color: rgb(240, 240, 255);
+}
+
+a {
+    /* color: #fff; */
+    color: rgb(186, 173, 230);
+    display: inline;
+    transition: .1s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+#h-top{
+    border: 2px solid red;
+    background-color: var(--bg-color);
+}
+
+h2,
+h3,
+h4 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* li a{
+    border: 4px solid blueviolet;
+} */
+
+.himansu-sir-left img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.himansu-sir-right {
+    width: 831px;
+    /* background-color:#fbfbf7; */
+}
+
+.himansu-sir-right h1 {
+    font-size: 2.3vw;
+}
+
+.himansu-sir-right h2 {
+    font-size: 1.8vw;
+}
+
+.himansu-sir-right p {
+    color: #fff;
+    font-size: 1vw;
+    line-height: 1.4rem;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.my-journey {
+    background-color: var(--bg-color);
+    border: 2px solid rgb(67, 56, 56);
+    flex-direction: column;
+    width: 270px;
+    /* background-color: #fbfbf7; */
+    align-items: start;
+}
+
+.my-journey h3 li a {
+    /* border: 2px solid rgb(175, 18, 18); */
+    padding: 8px 2px;
+}
+
+#Research {
+    /* border: 3px solid red; */
+    height: auto;
+    padding-bottom: 5rem;
+    background-color: var(--bg-color);
+}
+
+#Research h4 {
+    /* border: 2px solid red; */
+    background-color: var(--bg-color);
+    color: #fff;
+    font-size: 2.5vw;
+    padding-left: 33rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#second-btn-h {
+    /* border: 2px solid red; */
+    position: relative;
+    left: 41rem;
+    color: #fff;
+    top: 2.5rem;
+    background-color: gray;
+}
+
+#Curriculum-Vitae h4 {
+    /* border: 2px solid red; */
+    background-color: var(--bg-color);
+    color: #fff;
+    font-size: 2.5vw;
+    padding-left: 33rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#phd-journy{
+    /* border: 2px solid blue; */
+    gap: 20px;
+}
+#phd-journy-2{
+    /* border: 2px solid blue; */
+    position: relative;
+    left: 48.5rem;
+}
+#phd-journy p{
+    /* border: 2px solid red; */
+    width: 82rem;
+    margin-bottom: 1rem;
+}
+
+/* #phd-journy .my-journey{
+    position: relative;
+    left: 73rem;
+    bottom: 17rem;
+} */
+
+#heloo{
+    /* border: 2px solid red; */
+    width: 75rem;
+}
+
+.my-journey h1 {
+    font-size: 2vw;
+    padding-bottom: 18px;
+}
+
+.my-journey h3 li a {
+    transition: 0.2s ease-in-out;
+}
+
+.my-journey h3 li a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.activities {
+    /* border: 2px solid red; */
+    font-size: 2vw;
+    display: inline-block;
+    padding: 0;
+    height: auto;
+    position: relative;
+    left: 40%;
+    text-decoration: underline;
+}
+
+.Abstract {
+    display: inline;
+}
+
+.teaching-activities {
+    background-color: var(--bg-color);
+    /* border: 2px solid rgb(148, 15, 15); */
+    padding: 20px;
+}
+
+.teaching-activities h1 {
+    font-size: 2vw;
+}
+
+.teaching-activities p {
+    font-size: 1.2vw;
+}
+
+.teaching-activities ul {
+    /* border: 2px solid rgb(148, 15, 15); */
+    list-style: square;
+    font-size: 1.3vw;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 2rem;
+    padding: 0 50px;
+}
+
+.sponsor,
+.Interests {
+    background-color: var(--bg-color);
+    padding-top: 8px;
+}
+
+.project li {
+    /* border: 2px solid rgb(148, 15, 15); */
+    display: block;
+    font-weight: bold;
+}
+
+.project li p {
+    /* border: 2px solid rgb(24, 15, 148); */
+    display: inline-block;
+    font-weight: 500;
+
+}
+
+.project li p a {
+    /* border: 2px solid rgb(15, 148, 59); */
+    text-decoration: underline;
+}
+
+.pic {
+    /* border: 2px solid rgb(15, 148, 59); */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#research-paira {
+    color: #fff;
+}
+
+.pic .pic-box img {
+    /* border: 4px solid rgb(209, 11, 11); */
+    width: 474px;
+    height: 440px;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.btn-1 {
+    padding: 5px 4px;
+    border-radius: 5px;
+    background-color: rgb(11, 11, 86);
+    color: #fff;
+}
+
+.btn-2 {
+    background-color: rgb(11, 11, 86);
+    color: #fff;
+    padding: 5px 4px;
+    margin: 0 30px;
+    border-radius: 5px;
+}
+
+#phd-h4 {
+    /* border: 2px solid red; */
+    background-color: var(--bg-color);
+    color: #fff;
+    font-size: 2.5vw;
+    padding-left: 33rem;
+}
+
+#Publications h4 {
+    /* border: 2px solid red; */
+    background-color: var(--bg-color);
+    color: #fff;
+    font-size: 2.5vw;
+    padding-left: 38rem;
+}

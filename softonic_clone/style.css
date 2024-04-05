@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color: #fff;
+    --border-sizing: 2px solid red;
+    --border-sizing-2: 2px solid rgb(0, 255, 251);
+}
+
+h1{
+    font-size: 3.75rem;
+    font-family: "Montserrat","Verdana Fallback",Verdana,sans-serif;
+}
+
+h2{
+    color: #141415;
+    font-weight: 600;
+    font-size: 1.125rem;
+    font-family: "Montserrat","Verdana Fallback",Verdana,sans-serif;
+    margin: auto;
+}
+
+h3{
+    color: #3b3d40;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.cantainer{
+    border: var(--border-sizing);
+    max-width: 1265px;
+    margin-inline: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+
+/*----------- top-baaner ----------*/
+.top-section{
+    border: var(--border-sizing-2);
+    justify-content: space-between;
+}
+
+.top-banner{
+    border: var(--border-sizing);
+    /* padding: 2rem; */
+    gap: 1rem;
+}
+
+.top-banner a img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.top-banner h2{
+    font-size: 24px;
+    font-family: inherit;
+    color: #333536;
+}
+
+/*-----------header ----------*/
+.header{
+    text-align: center;
+}
